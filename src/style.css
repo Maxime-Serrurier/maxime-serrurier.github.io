@@ -9,3 +9,76 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header {
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--main-color);
+    width: 300px;
+    color: var(--color-theme);
+}
+
+.presentation {
+    border-top: 1px solid var(--color-theme);
+    border-bottom: 1px solid var(--color-theme);
+}
+
+.presentation__h1 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin: 1rem 0 1rem;
+}
+
+.presentation__h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.presentation__about,
+.contact__title  {
+    text-transform: uppercase;
+    margin: 2rem 0 1rem;
+}
+
+.presentation__text {
+    font-size: .7rem;
+    margin: 0 0 1rem;
+}
+
+.contact {
+    margin: 1rem 0 0 ;
+}
+
+.contact__item {
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact__item__mail {
+    color: var(--color-theme);
+    text-decoration: none;
+}
+
+.contact__item__mail:hover  {
+    color: var(--tertiarry-color);
+}
+
+.contact__logo {
+    margin-bottom: .4rem;
+    line-height: 2.3rem;
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid var(--color-theme);
+    border-radius: 1.5rem;
+}
