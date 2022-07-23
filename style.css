@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    height: 100%;
     width: 900px;
     margin: 0 auto;
     display: flex;
@@ -136,4 +137,28 @@ body {
 .skills__bloc {
     display: flex;
     gap: 2rem;
+}
+
+.skills__section {
+    width: 50%;
+}
+
+.skills__progress {
+    display: flex;
+    gap: .5rem;
+}
+
+.skills__progress-bar {
+    height: 1rem;    
+}
+
+.interests__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interests__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
