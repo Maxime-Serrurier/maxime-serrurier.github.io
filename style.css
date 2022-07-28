@@ -8,6 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 .container {
@@ -54,6 +55,8 @@ body {
 }
 
 .presentation__text {
+    margin: auto;
+    width: 90%;
     font-size: .7rem;
     margin: 0 0 1rem;
 }
@@ -87,6 +90,12 @@ body {
     height: 2rem;
     border: 2px solid var(--color-theme);
     border-radius: 1.5rem;
+}
+
+.contact__logo:hover,
+.interests__logo-item:hover {
+    border: none;
+    transform: scale(1.5);
 }
 
 .main {
@@ -201,6 +210,12 @@ body {
         flex-wrap: wrap;
         gap: 1rem;
     }
+}
+
+@media (max-width: 600px) {
+    .container {
+        
+    }    
 }
 
 @media (max-width: 450px) {
